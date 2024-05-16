@@ -1,4 +1,4 @@
-const apiKey = "0f2ec95146984ac7f74a787bdd3134db";
+        const apiKey = "0f2ec95146984ac7f74a787bdd3134db";
         const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
         const searchBox = document.querySelector(".search input");
         const searchBtn = document.querySelector(".search button");
@@ -49,4 +49,7 @@ const apiKey = "0f2ec95146984ac7f74a787bdd3134db";
         searchBtn.addEventListener("click", ()=>{
             checkWeather(searchBox.value);
         })
+
+        var myFate = new Date();
+        console.log(myFate);
         
