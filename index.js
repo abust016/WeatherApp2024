@@ -1,3 +1,6 @@
+        
+        //import { createRoot } from 'react-dom/client';        
+        
         const apiKey = "0f2ec95146984ac7f74a787bdd3134db";
         const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
         const searchBox = document.querySelector(".search input");
